@@ -1,0 +1,84 @@
+{
+  "prospects": [
+    {
+      "id": 1,
+      "name": "Big Jim's Plumbing",
+      "trade": "plumbing",
+      "phone": "(615) 555-1234",
+      "group_source": "Nashville Contractors & Subcontractors",
+      "card_score": 2,
+      "screenshot_path": null,
+      "notes": "Vistaprint template, 4 phone numbers, clipart wrench, ALL CAPS. Classic case.",
+      "status": "new",
+      "found_date": "2026-02-03",
+      "contacted_date": null,
+      "converted_date": null,
+      "revenue": 0
+    },
+    {
+      "id": 2,
+      "name": "Martinez Electric LLC",
+      "trade": "electrician",
+      "phone": "(901) 555-5678",
+      "group_source": "Memphis Area Contractors",
+      "card_score": 3,
+      "screenshot_path": null,
+      "notes": "Pixelated lightning bolt logo, neon yellow on white, hard to read phone number. Too many fonts.",
+      "status": "new",
+      "found_date": "2026-02-03",
+      "contacted_date": null,
+      "converted_date": null,
+      "revenue": 0
+    },
+    {
+      "id": 3,
+      "name": "Volunteer State Roofing",
+      "trade": "roofing",
+      "phone": "(865) 555-9012",
+      "group_source": "Knoxville Contractors Network",
+      "card_score": 3,
+      "screenshot_path": null,
+      "notes": "Decent attempt but busy background image makes text unreadable. House clipart from 2005.",
+      "status": "new",
+      "found_date": "2026-02-03",
+      "contacted_date": null,
+      "converted_date": null,
+      "revenue": 0
+    },
+    {
+      "id": 4,
+      "name": "Handy Dan Home Services",
+      "trade": "handyman",
+      "phone": "(615) 555-3456",
+      "group_source": "Nashville Handyman Services",
+      "card_score": 1,
+      "screenshot_path": null,
+      "notes": "Clearly printed at home on inkjet. Perforated edges visible. Comic Sans font. Phone number handwritten.",
+      "status": "new",
+      "found_date": "2026-02-03",
+      "contacted_date": null,
+      "converted_date": null,
+      "revenue": 0
+    },
+    {
+      "id": 5,
+      "name": "Cool Breeze HVAC",
+      "trade": "hvac",
+      "phone": "(423) 555-7890",
+      "group_source": "Chattanooga Home Services",
+      "card_score": 3,
+      "screenshot_path": null,
+      "notes": "Snowflake emoji as logo (printed emoji), 3 different fonts, fax number listed, no email or website.",
+      "status": "new",
+      "found_date": "2026-02-03",
+      "contacted_date": null,
+      "converted_date": null,
+      "revenue": 0
+    }
+  ],
+  "stats": {
+    "total_found": 5,
+    "contacted": 0,
+    "converted": 0
+  }
+}

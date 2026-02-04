@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head><style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.card {
+    width: 700px; height: 400px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 48px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 8px; height: 100%;
+    background: #ea580c;
+}
+.top { display: flex; justify-content: space-between; align-items: flex-start; }
+.name { font-size: 28px; font-weight: 700; color: #1a1a1a; }
+.trade { font-size: 16px; color: #666; margin-top: 4px; font-weight: 400; }
+.license { font-size: 12px; color: #999; margin-top: 8px; }
+.icon { width: 56px; height: 56px; background: #ea580c; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center; font-size: 28px; }
+.bottom { display: flex; gap: 32px; align-items: center; }
+.contact-item { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #444; }
+.contact-icon { width: 20px; height: 20px; background: #ea580c15; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; font-size: 11px; }
+
+.watermark {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 48px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.08);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 10;
+    pointer-events: none;
+}
+
+</style></head>
+<body>
+<div class="card">
+    <div class="top">
+        <div>
+            <div class="name">Handy Dan Home Services</div>
+            <div class="trade">Handyman</div>
+            <div class="license">Insured & Bonded</div>
+        </div>
+        <div class="icon">🛠️</div>
+    </div>
+    <div class="bottom">
+        <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            (615) 555-3456
+        </div>
+        <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            handydan@email.com
+        </div>
+        <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            Nashville, TN
+        </div>
+    </div>
+    <div class="watermark">PREVIEW</div>
+</div>
+</body></html>

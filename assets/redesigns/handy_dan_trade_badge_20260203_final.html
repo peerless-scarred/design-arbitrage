@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head><style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;900&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.card {
+    width: 700px; height: 400px;
+    background: #f8f7f4;
+    border-radius: 12px;
+    padding: 48px;
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.badge {
+    width: 140px; height: 140px;
+    background: #ea580c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 8px 32px #ea580c40;
+}
+.badge-icon { font-size: 56px; }
+.info { flex: 1; }
+.name { font-size: 26px; font-weight: 900; color: #1a1a1a; line-height: 1.1; }
+.trade { font-size: 14px; color: #ea580c; margin-top: 6px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 2px; }
+.license { font-size: 12px; color: #999; margin-top: 8px; padding-top: 8px;
+    border-top: 2px solid #eee; }
+.contacts { margin-top: 20px; display: flex; flex-direction: column; gap: 6px; }
+.contact-item { font-size: 14px; color: #555; }
+
+</style></head>
+<body>
+<div class="card">
+    <div class="badge"><span class="badge-icon">🛠️</span></div>
+    <div class="info">
+        <div class="name">Handy Dan Home Services</div>
+        <div class="trade">Handyman</div>
+        <div class="license">Insured & Bonded</div>
+        <div class="contacts">
+            <div class="contact-item">📞 (615) 555-3456</div>
+            <div class="contact-item">✉️ handydan@email.com</div>
+            <div class="contact-item">📍 Nashville, TN</div>
+        </div>
+    </div>
+    
+</div>
+</body></html>
